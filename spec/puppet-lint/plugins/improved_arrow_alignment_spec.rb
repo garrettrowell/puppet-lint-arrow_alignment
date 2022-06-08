@@ -1,6 +1,6 @@
 require 'spec_helper'
 
-describe 'arrow_alignment' do
+describe 'improved_arrow_alignment' do
   context 'resource default with correctly alligned' do
     let(:code) do
       <<-EOS

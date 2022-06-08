@@ -1,13 +1,13 @@
 Gem::Specification.new do |spec|
-  spec.name        = 'puppet-lint-arrow_alignment'
-  spec.version     = '0.0.2'
+  spec.name        = 'puppet-lint-improved_arrow_alignment'
+  spec.version     = '0.0.1'
   spec.author      = 'Garrett Rowell'
   spec.email       = 'garrett@puppet.com'
   spec.metadata    = {
-    'source_code_uri'   => 'https://github.com/garrettrowell/puppet-lint-arrow_alignment',
-    'documentation_uri' => 'https://github.com/garrettrowell/puppet-lint-arrow_alignment/blob/master/README.md'
+    'source_code_uri'   => 'https://github.com/garrettrowell/puppet-lint-improved_arrow_alignment',
+    'documentation_uri' => 'https://github.com/garrettrowell/puppet-lint-improved_arrow_alignment/blob/master/README.md'
   }
-  spec.homepage    = 'https://rubygems.org/gems/puppet-lint-arrow_alignment'
+  spec.homepage    = 'https://rubygems.org/gems/puppet-lint-improved_arrow_alignment'
   spec.license     = 'MIT'
   spec.files       = Dir[
     'README.md',

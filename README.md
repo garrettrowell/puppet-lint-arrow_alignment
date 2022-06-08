@@ -1,6 +1,6 @@
-# puppet-lint-arrow_alignment
+# puppet-lint-improved_arrow_alignment
 
-[![Gem Version](https://badge.fury.io/rb/puppet-lint-arrow_alignment.svg)](https://badge.fury.io/rb/puppet-lint-arrow_alignment)
+[![Gem Version](https://badge.fury.io/rb/puppet-lint-improved_arrow_alignment.svg)](https://badge.fury.io/rb/puppet-lint-improved_arrow_alignment)
 
 ## Installation
 To add the provided lint checks into a module utilizing the PDK:
@@ -11,7 +11,7 @@ To add the provided lint checks into a module utilizing the PDK:
    Gemfile:
      optional:
        ':development':
-         - gem: 'puppet-lint-resource_defaults'
+         - gem: 'puppet-lint-improved_arrow_alignment'
    ```
 2. Run `pdk update` from the root of the module
 3. `pdk validate` will now also use the lint checks provided by this plugin
@@ -19,7 +19,7 @@ To add the provided lint checks into a module utilizing the PDK:
 ## Usage
 This plugin provides one new check to `puppet-lint`
 
-### **arrow_alignme**
+### **improved_arrow_alignment**
 `--fix` support: No
 
 This check raises an warning if the arrow alignment is off anywhere within a class.

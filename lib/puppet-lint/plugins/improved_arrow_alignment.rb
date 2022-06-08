@@ -1,4 +1,4 @@
-PuppetLint.new_check(:arrow_alignment) do
+PuppetLint.new_check(:improved_arrow_alignment) do
   def check
     class_indexes.each do |res_idx|
       arrow_column = [0]
