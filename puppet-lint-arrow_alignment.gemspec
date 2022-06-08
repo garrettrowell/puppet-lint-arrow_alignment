@@ -1,13 +1,13 @@
 Gem::Specification.new do |spec|
-  spec.name        = 'puppet-lint-resource_defaults'
+  spec.name        = 'puppet-lint-arrow_alignment'
   spec.version     = '0.0.1'
   spec.author      = 'Garrett Rowell'
   spec.email       = 'garrett@puppet.com'
   spec.metadata    = {
-    'source_code_uri'   => 'https://github.com/garrettrowell/puppet-lint-resource_defaults',
-    'documentation_uri' => 'https://github.com/garrettrowell/puppet-lint-resource_defaults/blob/master/README.md'
+    'source_code_uri'   => 'https://github.com/garrettrowell/puppet-lint-arrow_alignment',
+    'documentation_uri' => 'https://github.com/garrettrowell/puppet-lint-arrow_alignment/blob/master/README.md'
   }
-  spec.homepage    = 'https://rubygems.org/gems/puppet-lint-resource_defaults'
+  spec.homepage    = 'https://rubygems.org/gems/puppet-lint-arrow_alignment'
   spec.license     = 'MIT'
   spec.files       = Dir[
     'README.md',
@@ -16,9 +16,9 @@ Gem::Specification.new do |spec|
     'spec/**/*',
   ]
   spec.test_files  = Dir['spec/**/*']
-  spec.summary     = 'puppet-lint resource defaults'
+  spec.summary     = 'improved puppet-lint arrow alignment checks'
   spec.description = <<-EOF
-    Extends puppet-lint check resource defaults for arrow alignment.
+    Extends puppet-lint to better handle => alignment.
   EOF
 
   spec.add_dependency             'puppet-lint', '>= 1.1', '< 3.0'

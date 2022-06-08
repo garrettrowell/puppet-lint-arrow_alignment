@@ -1,6 +1,6 @@
-# puppet-lint resource defaults
+# puppet-lint-arrow_alignment
 
-[![Gem Version](https://badge.fury.io/rb/puppet-lint-resource_defaults.svg)](https://badge.fury.io/rb/puppet-lint-resource_defaults)
+[![Gem Version](https://badge.fury.io/rb/puppet-lint-arrow_alignment.svg)](https://badge.fury.io/rb/puppet-lint-arrow_alignment)
 
 ## Installation
 To add the provided lint checks into a module utilizing the PDK:
@@ -19,10 +19,10 @@ To add the provided lint checks into a module utilizing the PDK:
 ## Usage
 This plugin provides one new check to `puppet-lint`
 
-### **resource_default_arrow_alignme**
+### **arrow_alignme**
 `--fix` support: No
 
-This check raises an warning if the arrow alignment is off in resource defaults.
+This check raises an warning if the arrow alignment is off anywhere within a class.
 ```
 warning: indentation of => is not properly aligned (expected in column %d, but found it in column %d)
 ```
