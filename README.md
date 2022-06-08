@@ -17,7 +17,7 @@ To add the provided lint checks into a module utilizing the PDK:
 3. `pdk validate` will now also use the lint checks provided by this plugin
 
 ## Usage
-This plugin provides two new checks to `puppet-lint`
+This plugin provides one new check to `puppet-lint`
 
 ### **resource_default_arrow_alignme**
 `--fix` support: No
