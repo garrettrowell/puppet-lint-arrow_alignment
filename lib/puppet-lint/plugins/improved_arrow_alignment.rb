@@ -1,6 +1,6 @@
 PuppetLint.new_check(:improved_arrow_alignment) do
   def check
-    class_indexes.each do |res_idx|
+    (class_indexes + defined_type_indexes).each do |res_idx|
       arrow_column = [0]
       level_idx = 0
       level_tokens = []
@@ -18,6 +18,13 @@ PuppetLint.new_check(:improved_arrow_alignment) do
       next if resource_tokens[first_arrow].line == resource_tokens[last_arrow].line
 
       resource_tokens.each do |token|
+        # don't step on arrow_alignment check from puppet-lint
+        in_resource = false
+        resource_indexes.each do |res|
+          in_resource = res[:tokens].include?(token)
+        end
+        next if in_resource
+
         if token.type == :FARROW
           param_token = token.prev_code_token
 
